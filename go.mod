@@ -1,6 +1,8 @@
-module github.com/rodrigo-brito/ninjabot
+module github.com/ezquant/ninjabot-ctp
 
-go 1.18
+go 1.22
+
+toolchain go1.23.4
 
 require (
 	github.com/StudioSol/set v1.0.0
@@ -11,6 +13,7 @@ require (
 	github.com/jpillora/backoff v1.0.0
 	github.com/markcheno/go-talib v0.0.0-20190307022042-cd53a9264d70
 	github.com/olekukonko/tablewriter v0.0.5
+	github.com/rodrigo-brito/ninjabot v0.3.7
 	github.com/samber/lo v1.47.0
 	github.com/schollz/progressbar/v3 v3.16.1
 	github.com/sirupsen/logrus v1.9.3
